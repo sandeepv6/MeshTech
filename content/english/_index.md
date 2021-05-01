@@ -1,9 +1,9 @@
 ---
 ####################### Banner #########################
 banner:
-  title : "Let us solve your critical website <br> development challenges"
-  image : "images/banner-art.svg"
-  content : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam nihil enim maxime corporis cumque <br> totam aliquid nam sint inventore optio modi neque laborum officiis necessitatibus"
+  title : "Skyrocket your revenue 100% done-for-you"
+  image : "mesh_logo.png"
+  content : "MESH uses AI to send effective, personalized messages to your dream clients proven to get positive responses."
   button:
     enable : true
     label : "Contact With Us"
@@ -12,7 +12,7 @@ banner:
 ##################### Feature ##########################
 feature:
   enable : true
-  title : "Something You Need To Know"
+  title : "Skyrocket your revenue 100% done-for-you"
   feature_item:
     # feature item loop
     - name : "Clean Code"
