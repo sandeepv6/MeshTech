@@ -1,6 +1,6 @@
 #################### default parameters ################################
 logo = "images/mesh_logo.png"
-logo_width = "200px"
+logo_width = "100px"
 # Meta data
 description = "This is meta description"
 author = "Themefisher"
