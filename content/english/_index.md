@@ -16,17 +16,17 @@ feature:
   feature_item:
     # feature item loop
     - name : "Save Time"
-      icon : "fas fa-code"
+      icon : "fas fa-clock"
       content : "With our platform, you’ll save time by letting AI take over of you marketing reach and respond to leads so you never miss out any opportunities."
       
     # feature item loop
     - name : "Grow Your Business"
-      icon : "fas fa-object-group"
+      icon : "fas fa-signal"
       content : "You’ll enjoy company growth faster than you expected possible, by automating your reach to potential clients."
       
     # feature item loop
     - name : "Friendly Support"
-      icon : "fas fa-user-clock"
+      icon : "fas fa-comments"
       content : "Our support team is available every day to make sure that things runs smoothly. We’re here to help."
       
     # # feature item loop
@@ -94,22 +94,22 @@ service:
     #     label : "Check it out"
     #     link : "#"
         
-################### Screenshot ########################
+################## Screenshot ########################
 screenshot:
-  enable : true
+  enable : false
   title : "JOIN OUR HAPPY CUSTOMERS"
-  #image : "images/milord&sons_logo.png"
+  image : "images/logo.png"
 
   
 
-##################### Call to action #####################
-# call_to_action:
-#   enable : true
-#   title : "Ready to get started?"
-#   image : "images/cta.svg"
-#   content : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur."
-#   button:
-#     enable : true
-#     label : "Contact Us"
-#     link : "contact"
+#################### Call to action #####################
+call_to_action:
+  enable : true
+  title : "Ready to get started?"
+  image : "images/cta.svg"
+  content : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur."
+  button:
+    enable : true
+    label : "Contact Us"
+    link : "contact"
 ---

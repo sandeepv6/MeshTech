@@ -6,7 +6,7 @@ weight = 1
 
 [[main]]
 name = "Our Services"
-url = "blog"
+url = "services"
 weight = 2
 
 [[main]]
@@ -16,7 +16,7 @@ weight = 3
 
 [[main]]
 name = "About"
-url = "contact"
+url = "aboutus"
 weight = 4
 
 [[main]]
