@@ -9,6 +9,14 @@ $black: {{.black | default "#000"}};
 $white: {{.white | default "#fff"}};
 $light: {{.light | default "#EDF6F5"}};
 
+// added by sash
+$light2: {{.light2 | default "#edf9ff"}};
+$button-color1:{{.button_color1 | default "#525252"}};
+$button-color2:{{.button_color2 | default "#16b2fa"}};
+$secondary-color:{{.secondary_color | default "#16b2fa"}};
+
+$testCOL:{{.testCOL | default "#ff0000"}};
+
 // Font Variables
 $primary-font: '{{ replaceRE ":[ital,]*wght@[0-9,;]+" "" .primary_font | default "Lato"}}', {{.primary_font_type | default "sans-serif"}};
 $icon-font: '{{.icon_font | default "Font Awesome 5 Free"}}';

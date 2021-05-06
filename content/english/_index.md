@@ -59,10 +59,10 @@ service:
       content : "We have multi-year experience with proven record of employing state-of-the-art marketing techniques to attract more clients to any businesses.
                 Our customers are from different industries such as Financial services, education institutes, Franchising institutes, real-estate brokers, commercial brokers, personal development coach, software development consultation companies, etc.
                 We love what we do and we put our full expertise to work. Ask us about collaboration of becoming part of your business rather than working for you option! We believe every business is different. We need to understand your business, then we provide customized solution to your needs!"
-      # button:
-      #   enable : true
-      #   label : "Check it out"
-      #   link : "#"
+    #   button:
+    #     enable : true
+    #     label : "Check it out"
+    #     link : "#"
         
     # # service item loop
     # - title : "It is a privately owned Information and cyber security company"

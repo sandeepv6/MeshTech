@@ -46,7 +46,7 @@
 }
 
 .btn-primary {
-  background-color: $primary-color;
+  background-color: $button-color1;
   color: $white;
   border-color: $primary-color;
 
@@ -54,14 +54,14 @@
   &:hover,
   &.focus,
   &.active {
-    background-color: $primary-color !important;
+    background-color: $button-color2 !important;
     border-color: $primary-color !important;
   }
 }
 
 .btn-outline-primary {
   background-color: transparent;
-  color: $text-color-dark;
+  color: $testCOL;
   border-color: transparent;
 
   &:active,
