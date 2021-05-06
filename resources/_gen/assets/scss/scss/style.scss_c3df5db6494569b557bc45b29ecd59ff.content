@@ -106,7 +106,7 @@ h6,
 
 .btn-outline-primary {
   background-color: transparent;
-  color: #ff0000;
+  color: #222;
   border-color: transparent; }
   .btn-outline-primary:active, .btn-outline-primary:hover, .btn-outline-primary.focus, .btn-outline-primary.active {
     background-color: transparent !important;
@@ -512,7 +512,7 @@ a.post-title {
       display: block;
       color: transparent;
       padding: 0;
-      border: 1px solid #ff0000;
+      border: 1px solid #0AA8A7;
       background-color: transparent;
       transition: .2s ease; }
 

@@ -6,7 +6,7 @@ weight = 1
 
 [[main]]
 name = "Our Services"
-url = "services"
+url = "faq"
 weight = 2
 
 [[main]]
@@ -21,7 +21,7 @@ weight = 4
 
 [[main]]
 name = "Join Us"
-url = "faq"
+url = "contact"
 weight = 5
 
 # footer menu left

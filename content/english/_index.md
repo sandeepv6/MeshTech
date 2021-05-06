@@ -2,7 +2,7 @@
 ####################### Banner #########################
 banner:
   title : "Skyrocket your revenue 100% done-for-you"
-  image : "vectium_logo.png"
+  image : ""
   content : "MESH uses AI to send effective, personalized messages to your dream clients proven to get positive responses."
   button:
     enable : true
