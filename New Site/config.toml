@@ -11,20 +11,20 @@ name    = "Home"
 url     = "/"
 weight  = 1
 [[menu.main]]
-name    = "About"
-url     = "about"
+name    = "Our Services"
+url     = "service"
 weight  = 2
 [[menu.main]]
-name    = "Service"
-url     = "service"
+name    = "Advantage"
+url     = "gallery"
 weight  = 3
 [[menu.main]]
-name    = "Gallery"
-url     = "gallery"
+name    = "About"
+url     = "about"
 weight  = 4
 [[menu.main]]
-name    = "Blog"
-url     = "blog"
+name    = "Contact"
+url     = "contact"
 weight  = 5
 [[menu.main]]
 name    = "Contact"
@@ -34,7 +34,7 @@ weight  = 6
 # Site Params
 [params]
 home = "Home"
-logo = "images/logo.png"
+logo = "images/mesh_logo.png"
 dateFormat = "6 January 2006"
 # Meta data
 description = "Airspace Hugo theme"
@@ -48,32 +48,26 @@ contactFormAction = "#" # contact form works with https://formspree.io
 [params.banner]
 enable  = true
 bgImage = "images/slider.jpg"
-heading = "HI, MY NAME IS JONATHON & I AM A"
-description = "WITH 10 YEARS EXPERIENCE, I'VE OCCUPIED MANY ROLES INCLUDING DIGITAL DESIGN DIRECTOR, WEB DESIGNER AND DEVELOPER. THIS SITE SHOWCASES SOME OF MY WORK."
+heading = "Skyrocket your revenue 100% done-for-you"
+description = "MESH uses AI to send effective, personalized messages to your dream clients proven to get positive responses."
 # button
 btn     = true
-btnText = "Download More"
+btnText = "Free Consultation"
 btnURL  = "https://themefisher.com/"
 
 # flip text
 [[params.banner.flipText]]
-title   = "1"
+title   = "Save Time"
 [[params.banner.flipText]]
-title   = "2"
+title   = "Grow your Business"
 [[params.banner.flipText]]
-title   = "3"
-[[params.banner.flipText]]
-title   = "sdf"
-[[params.banner.flipText]]
-title   = "sdfsdfsdf"
-[[params.banner.flipText]]
-title   = "fff3"
+title   = "Friendly Support"
 
 # Homepage About Section
 [params.about]
 enable  = true
-title   = "ABOUT ME"
-content = "Hello, I’m a UI/UX Designer & Front End Developer from Victoria, Australia. I hold a master degree of Web Design from the World University.And scrambled it to make a type specimen book. It has survived not only five centuries. <br> <br> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, adipisci voluptatum repudiandae, natus impedit repellat aut officia illum at assumenda iusto reiciendis placeat. Temporibus, vero."
+title   = "ABOUT US"
+content = "We have multi-year experience with proven record of employing state-of-the-art marketing techniques to attract more clients to any businesses. Our customers are from different industries such as Financial services, education institutes, Franchising institutes, real-estate brokers, commercial brokers, personal development coach, software development consultation companies, etc. We love what we do and we put our full expertise to work. Ask us about collaboration of becoming part of your business rather than working for you option! We believe every business is different. We need to understand your business, then we provide customized solution to your needs!"
 image   = "images/about/about.jpg"
 
 # Call to Action
@@ -84,11 +78,12 @@ content = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis,<br>p
 btnText = "Contact with me"
 btnURL  = "/contact"
 
+
 # Portfolio Section On Homepage
-[params.portfolio]
-enable  = true
-title   = "Latest Works"
-subtitle= "Aliquam lobortis. Maecenas vestibulum mollis diam. Pellentesque auctor neque nec urna. Nulla sit amet est. Aenean posuere tortor sed cursus feugiat, nunc augue blandit nunc, eu sollicitudin urna dolor sagittis lacus."
+#[params.portfolio]
+#enable  = true
+#title   = "Latest Works"
+#subtitle= "Aliquam lobortis. Maecenas vestibulum mollis diam. Pellentesque auctor neque nec urna. Nulla sit amet est. Aenean posuere tortor sed cursus feugiat, nunc augue blandit nunc, eu sollicitudin urna dolor sagittis lacus."
 
 # social icon
 [[params.socialIcon]]
