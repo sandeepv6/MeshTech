@@ -1,24 +1,24 @@
 enable  : true
 title   : Services
 subtitle: We leverage high performing data from executing thousands of successful social media campaigns in every industry to target & engage your most qualified decision makers, driving them directly into your sales funnel.
-image   : images/team.jpg
+image   : images/stock_service.jpg
 serviceItem :
-  - icon  : ion-ios-paper-outline
+  - icon  : ion-social-linkedin
     title : Linkedin
     description: >
       We use power of Linkedin to exponentially grow your business.
 
-  - icon  : ion-ios-paper-outline
+  - icon  : ion-social-instagram
     title : Instagram
     description: >
       We grow your followers by engaging true converging potential customers.
 
-  - icon  : ion-ios-paper-outline
+  - icon  : ion-social-facebook
     title : Facebook
     description: >
       We use Facebook ads and private groups to engage with your customers.
 
-  - icon  : ion-ios-paper-outline
-    title : Test4
-    description: >
-      temp
+  # - icon  : ion-ios-paper-outline
+  #   title : Test4
+  #   description: >
+  #     temp

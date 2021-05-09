@@ -14,10 +14,10 @@ weight  = 1
 name    = "Our Services"
 url     = "service"
 weight  = 2
-[[menu.main]]
-name    = "Advantage"
-url     = "gallery"
-weight  = 3
+#[[menu.main]]
+#name    = "Advantage"
+#url     = "gallery"
+#weight  = 3
 [[menu.main]]
 name    = "About"
 url     = "about"
