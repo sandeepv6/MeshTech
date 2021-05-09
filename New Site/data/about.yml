@@ -1,10 +1,10 @@
 enable  : true
-title   : Why We are Different
+title   : Who We Are
 description: >
-  Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequun. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+  We have multi-year experience with proven record of employing state-of-the-art marketing techniques to attract more clients to any businesses. Our customers are from different industries such as Financial services, education institutes, Franchising institutes, real-estate brokers, commercial brokers, personal development coach, software development consultation companies, etc. We love what we do and we put our full expertise to work. Ask us about collaboration of becoming part of your business rather than working for you option! We believe every business is different. We need to understand your business, then we provide customized solution to your needs!
   <br>
   <br>
-  Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae.
+# Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae.
 image   : images/about/about-company.jpg
 aboutItem:
   - title : Why Choose Us
