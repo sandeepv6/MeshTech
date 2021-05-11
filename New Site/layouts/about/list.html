@@ -26,17 +26,45 @@
 
 {{ "<!--  Company Feature Section Start -->" | safeHTML }}
 <section class="about-feature clearfix">
-	<div class="container-fluid">
-		<div class="row">
-			{{ range $index, $element := .Site.Data.about.aboutItem }}
-			<div class="col-lg-4 px-0">
-				{{ $class := add $index 1 }}
-				<div class="block about-feature-{{ $class }} wow fadeInDown" data-wow-duration="500ms" data-wow-delay=".3s">
-					{{ with .title }}<h2>{{ . }}</h2>{{ end }}
-					{{ with .description }}<p>{{ . }}</p>{{ end }}
+	<div class="aboutBg">
+		<div class="container-fluid">
+			<div class="row">
+				{{ range $index, $element := .Site.Data.about.aboutItem }}
+				<div class="col-lg-4 px-0">
+					{{ $class := add $index 1 }}
+					<div class="block about-feature-{{ $class }} wow fadeInDown" data-wow-duration="500ms" data-wow-delay=".3s">
+						{{ with .title }}<h2>{{ . }}</h2>{{ end }}
+						{{ with .description }}<p>{{ . }}</p>{{ end }}
+						{{ with .title2 }}<h2>{{ . }}</h2>{{ end }}
+						{{ with .descriptionSECOND1 }}<p>{{ . }}</p>{{ end }}
+						{{ with .descriptionSECOND2 }}<p>{{ . }}</p>{{ end }}
+						{{ with .descriptionSECOND3 }}<p>{{ . }}</p>{{ end }}
+						{{ with .descriptionSECOND4 }}<p>{{ . }}</p>{{ end }}
+						{{ with .descriptionSECOND5 }}<p>{{ . }}</p>{{ end }}
+						{{ with .descriptionSECOND6 }}<p>{{ . }}</p>{{ end }}
+						{{ with .descriptionSECOND7 }}<p>{{ . }}</p>{{ end }}
+						{{ with .descriptionSECOND8 }}<p>{{ . }}</p>{{ end }}
+						{{ with .descriptionSECOND9 }}<p>{{ . }}</p>{{ end }}
+						{{ with .descriptionSECOND10 }}<p>{{ . }}</p>{{ end }}
+						{{ with .descriptionSECOND11 }}<p>{{ . }}</p>{{ end }}
+						{{ with .descriptionSECOND12 }}<p>{{ . }}</p>{{ end }}
+						{{ with .descriptionSECOND13 }}<p>{{ . }}</p>{{ end }}
+						{{ with .descriptionSECOND14 }}<p>{{ . }}</p>{{ end }}
+						{{ with .descriptionSECOND15 }}<p>{{ . }}</p>{{ end }}
+						{{ with .title3 }}<h2>{{ . }}</h2>{{ end }}
+						{{ with .descriptionTHIRD1 }}<p>{{ . }}</p>{{ end }}
+						{{ with .descriptionTHIRD2 }}<p>{{ . }}</p>{{ end }}
+						{{ with .descriptionTHIRD3 }}<p>{{ . }}</p>{{ end }}
+						{{ with .descriptionTHIRD4 }}<p>{{ . }}</p>{{ end }}
+						{{ with .descriptionTHIRD5 }}<p>{{ . }}</p>{{ end }}
+						{{ with .descriptionTHIRD6 }}<p>{{ . }}</p>{{ end }}
+						{{ with .descriptionTHIRD7 }}<p>{{ . }}</p>{{ end }}
+						{{ with .descriptionTHIRD8 }}<p>{{ . }}</p>{{ end }}
+						{{ with .descriptionTHIRD9 }}<p>{{ . }}</p>{{ end }}
+					</div>
 				</div>
+				{{ end }}
 			</div>
-			{{ end }}
 		</div>
 	</div>
 </section>

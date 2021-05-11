@@ -22,8 +22,8 @@ h2 {
 
 p {
   font-family: "Roboto", sans-serif;
-  line-height: 22px;
-  font-size: 16px;
+  line-height: 29px;
+  font-size: 25px;
   font-weight: 300;
 }
 
@@ -441,11 +441,11 @@ a:hover {
 }
 
 .about-feature .about-feature-2 {
-  background: #00B0C7;
+  background: #02bdd5;
 }
 
 .about-feature .about-feature-3 {
-  background: #00A6BB;
+  background: #02bdd5;
 }
 
 .works {
@@ -1336,5 +1336,9 @@ ul.social-icons li {
 /* ADD BY SASH */
 .main-img{
   padding-top: 120px;
+}
+
+.aboutBg{
+  background-color: #02bdd5;
 }
 

@@ -9,34 +9,85 @@ image   : images/about-company.jpg
 aboutItem:
   - title : Marketing Specialist and IT assistant
     description: > 
-      If you are looking to create engagement and excitement in an ever-evolving industry, while working in a collaborative and progressive environment, then MESH is the right place for you. Continually growing and expanding, we are now looking for an exceptional Social Media Specialist to join our dynamic Marketing team and take our brands to the next level. The Position The Social Media Specialist is the face and voice of MESH digital channels. The first point of contact for online fans and followers, the Social Media Specialist aligns all Company communications, PR, sales, and marketing content to create a strong brand identity. He/ She helps to drive sales, engage and retain customers, and grow the brand.
+     If you are looking to create engagement and excitement in an ever-evolving industry, while working in a collaborative and progressive environment, then MESH is the right place for you. Continually growing and expanding, we are now looking for an exceptional Social Media Specialist to join our dynamic Marketing team and take our brands to the next level. The Position The Social Media Specialist is the face and voice of MESH digital channels. The first point of contact for online fans and followers, the Social Media Specialist aligns all Company communications, PR, sales, and marketing content to create a strong brand identity. He/ She helps to drive sales, engage and retain customers, and grow the brand.
+  - title2 : Duties and Responsibilities   
+    descriptionSECOND1: >
+     • Provide engaging text, image and video content for FB & IG channels for 5 brands.
+    descriptionSECOND2: >
+     • Plan out and schedule content calendar with senior graphic designer.
+    descriptionSECOND3: >
+     • Assist with e-mail marketing, copywriting and content creation.
+    descriptionSECOND4: >
+     • Monitor, track and report social media analytics, trends.
+    descriptionSECOND5: >
+     • Implement, track and optimize the Company digital marketing campaigns across all digital channels.
+    descriptionSECOND6: >
+     • Work with the design team to create engaging content for all platforms, including blog pieces, articles, social media posts, newsletters, and videos.
+    descriptionSECOND7: >
+     • Update website to make sure it’s up to date with ongoing sales and new products.
+    descriptionSECOND8: >
+     • Identify, analyze and report on website analytics and relevant community metrics.
+    descriptionSECOND9: >
+     • Assist with marketing, sales and customer service for our website
+    descriptionSECOND10: >
+     • Respond to customers in a timely manner.
+    descriptionSECOND11: >
+     • Build relationships with customers, industry professionals and influencers.
+    descriptionSECOND12: >
+     • Liaise with other departments to stay updated on new marketing initiatives, product and service developments, and to ensure brand consistency.
+    descriptionSECOND13: >
+     • Attend networking events or relevant industry workshops.
+    descriptionSECOND14: >
+     • Liaise with influencers, bloggers and the general public to ensure accurate brand representation.
+    descriptionSECOND15: >
+     • Assist with campaign ideation.
+  - title3 : Required Skills and Qualifications   
+    descriptionTHIRD1: >
+     • Associate (preferably Bachelor’s degree) or equivalent in Marketing, Digital Marketing or Communications.
+    descriptionTHIRD2: >
+     • Exceptional copy-writing skills and verbal communication skills (good sense of humor a plus!).
+    descriptionTHIRD3: >
+     • Best-In-Class customer service skills and ability to communicate with empathy.
+    descriptionTHIRD4: >
+     • Excellent interpersonal and presentation skills.
+    descriptionTHIRD5: >
+     • Ability to stay up-to-date with digital technology trends, new developments, and opportunities in the industry.
+    descriptionTHIRD6: >
+     • Excellent computer skills (Microsoft Office).
+    descriptionTHIRD7: >
+     • Adaptable, self-driven and ambitious.
+    descriptionTHIRD8: >
+     • Graphic design skills.
+    descriptionTHIRD9: >
+     • Wordpress skills is a plus!
 
-  - title : Duties and Responsibilities
-    description: > 
-      Provide engaging text, image and video content for FB & IG channels for 5 brands.
-       Plan out and schedule content calendar with senior graphic designer.
-       Assist with e-mail marketing, copywriting and content creation.
-       Monitor, track and report social media analytics, trends.
-       Implement, track and optimize the Company digital marketing campaigns across all digital channels.
-       Work with the design team to create engaging content for all platforms, including blog pieces, articles, social media posts, newsletters, and videos.
-       Update website to make sure it’s up to date with ongoing sales and new products.
-       Identify, analyze and report on website analytics and relevant community metrics.
-       Assist with marketing, sales and customer service for our website
-       Respond to customers in a timely manner.
-       Build relationships with customers, industry professionals and influencers.
-       Liaise with other departments to stay updated on new marketing initiatives, product and service developments, and to ensure brand consistency.
-       Attend networking events or relevant industry workshops.
-       Liaise with influencers, bloggers and the general public to ensure accurate brand representation.
-       Assist with campaign ideation.
+  
+  # - title : Duties and Responsibilities
+  #   description: > 
+  #     Provide engaging text, image and video content for FB & IG channels for 5 brands.
+  #      Plan out and schedule content calendar with senior graphic designer.
+  #      Assist with e-mail marketing, copywriting and content creation.
+  #      Monitor, track and report social media analytics, trends.
+  #      Implement, track and optimize the Company digital marketing campaigns across all digital channels.
+  #      Work with the design team to create engaging content for all platforms, including blog pieces, articles, social media posts, newsletters, and videos.
+  #      Update website to make sure it’s up to date with ongoing sales and new products.
+  #      Identify, analyze and report on website analytics and relevant community metrics.
+  #      Assist with marketing, sales and customer service for our website
+  #      Respond to customers in a timely manner.
+  #      Build relationships with customers, industry professionals and influencers.
+  #      Liaise with other departments to stay updated on new marketing initiatives, product and service developments, and to ensure brand consistency.
+  #      Attend networking events or relevant industry workshops.
+  #      Liaise with influencers, bloggers and the general public to ensure accurate brand representation.
+  #      Assist with campaign ideation.
 
-  - title : Required Skills and Qualifications
-    description: > 
-      Associate (preferably Bachelor’s degree) or equivalent in Marketing, Digital Marketing or Communications.
-       Exceptional copy-writing skills and verbal communication skills (good sense of humor a plus!).
-       Best-In-Class customer service skills and ability to communicate with empathy.
-       Excellent interpersonal and presentation skills.
-       Ability to stay up-to-date with digital technology trends, new developments, and opportunities in the industry.
-       Excellent computer skills (Microsoft Office).
-       Adaptable, self-driven and ambitious.
-       Graphic design skills.
-       Wordpress skills is a plus!
+  # - title : Required Skills and Qualifications
+  #   description: > 
+  #     Associate (preferably Bachelor’s degree) or equivalent in Marketing, Digital Marketing or Communications.
+  #     Exceptional copy-writing skills and verbal communication skills (good sense of humor a plus!).
+  #     Best-In-Class customer service skills and ability to communicate with empathy.
+  #     Excellent interpersonal and presentation skills.
+  #     Ability to stay up-to-date with digital technology trends, new developments, and opportunities in the industry.
+  #     Excellent computer skills (Microsoft Office).
+  #     Adaptable, self-driven and ambitious.
+  #     Graphic design skills.
+  #     Wordpress skills is a plus!
