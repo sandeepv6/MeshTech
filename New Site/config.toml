@@ -47,7 +47,7 @@ contactFormAction = "#" # contact form works with https://formspree.io
 # Banner Section
 [params.banner]
 enable  = true
-bgImage = "images/slider.jpg"
+bgImage = "images/mesh_header.jpg"
 heading = "Skyrocket your revenue 100% done-for-you"
 description = "MESH uses AI to send effective, personalized messages to your dream clients proven to get positive responses."
 # button
