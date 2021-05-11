@@ -54,7 +54,7 @@
       </div>
     </div>
     <div class="row address-details">
-      <div class="col-lg-3 col-sm-6">
+      <!-- <div class="col-lg-3 col-sm-6">
         <div class="address wow fadeInLeft" data-wow-duration="500ms" data-wow-delay=".3s">
           <i class="ion-ios-location-outline"></i>
           {{ with .Site.Data.contact.officeAddress1 }}<h5>{{ . }}</h5>{{ end }}
@@ -65,15 +65,17 @@
           <i class="ion-ios-location-outline"></i>
           {{ with .Site.Data.contact.officeAddress2 }}<h5>{{ . }}</h5>{{ end }}
         </div>
-      </div>
-      <div class="col-lg-3 col-sm-6">
+      </div> -->
+
+      <!-- fix by sash -->
+      <div class="col-sm-6"> <!--col-lg-3 -->
         <div class="email wow fadeInLeft" data-wow-duration="500ms" data-wow-delay=".7s">
           <i class="ion-ios-email-outline"></i>
           <p>{{ with .Site.Data.contact.mail1 }}{{ . }}{{ end }}
             <br>{{ with .Site.Data.contact.mail2 }}{{ . }}{{ end }}</p>
         </div>
       </div>
-      <div class="col-lg-3 col-sm-6">
+      <div class=" col-sm-6"> <!--col-lg-3 -->
         <div class="phone wow fadeInLeft" data-wow-duration="500ms" data-wow-delay=".9s">
           <i class="ion-ios-telephone-outline"></i>
           <p>{{ with .Site.Data.contact.phone1 }}{{ . }}{{ end }}

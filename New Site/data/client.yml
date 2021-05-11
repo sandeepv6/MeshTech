@@ -1,6 +1,6 @@
 enable  : true
 title   : JOIN OUR HAPPY CUSTOMERS
-subtitle: --
+subtitle:  " " 
 clientsLogo:
   - image : images/milord&sons_logo.png
   - image : images/vectium_logo.png

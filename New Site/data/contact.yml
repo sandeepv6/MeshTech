@@ -5,9 +5,9 @@ contactFormSubtitle : >
 mapTitle    : FIND US
 mapSubtitle : >
 
-officeAddress1 : 125, Kings Street, Melbourne United Kingdom,600562
-officeAddress2 : 925, Lab Street, San Fransisco, United State 90278
-mail1 : support@timer.com
-mail2 : info@timer.com
-phone1: +07 052 245 022
-phone2: +07 052 245 025 
+# officeAddress1 : 125, Kings Street, Melbourne United Kingdom,600562
+# officeAddress2 : 925, Lab Street, San Fransisco, United State 90278
+mail1 : info@meshtech.ca
+# mail2 : info@timer.com
+phone1: 604 401 4848
+# phone2: +07 052 245 025 
