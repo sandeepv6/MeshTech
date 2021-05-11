@@ -1,6 +1,6 @@
 baseURL = "http://example.org/"
 languageCode = "en-us"
-title = "Timer | Responsive Multipurpose Bootstrap Hugo Template"
+title = "MeshTech"
 theme = "timer-hugo"
 
 # We Used Ionicons Icon font for Icon, for more details check this link - https://ionicons.com/
@@ -52,7 +52,7 @@ heading = "Skyrocket your revenue 100% done-for-you"
 description = "MESH uses AI to send effective, personalized messages to your dream clients proven to get positive responses."
 # button
 btn     = true
-btnText = "Free Consultation"
+btnText = "Newsletter"
 btnURL  = "https://themefisher.com/"
 
 # flip text
