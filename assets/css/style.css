@@ -367,7 +367,7 @@ a:hover {
 
 #call-to-action .block h2 {
   margin-bottom: 15px;
-  color: #fff;
+  color: #434343;
 }
 
 #call-to-action .block p {
@@ -378,9 +378,9 @@ a:hover {
 }
 
 #call-to-action .block .btn-contact {
-  background: #fff;
-  border: 2px solid #fff;
-  color: #02bdd5;
+  background: #434343;
+  border: 2px solid #434343;
+  color: #fff;
   padding: 15px 34px;
   margin-top: 20px;
   font-size: 12px;
@@ -395,8 +395,8 @@ a:hover {
 }
 
 #call-to-action .block .btn-contact:hover {
-  color: #fff;
-  background: #02bdd5;
+  color: #434343;
+  background: #fff;
 }
 
 #about {
@@ -416,7 +416,7 @@ a:hover {
 }
 
 #about .block p {
-  color: #020000;
+  color: #434343;
   font-size: 24px;
   line-height: 28px;
   margin-bottom: 35px;
@@ -620,8 +620,8 @@ figure figcaption p {
 
 #feature p {
   line-height: 25px;
-  font-size: 14px;
-  color: #777777;
+  font-size: 16px;
+  color: #434343;
 }
 
 #feature .icon {
