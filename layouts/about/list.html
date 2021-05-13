@@ -29,41 +29,58 @@
 	<div class="aboutBg">
 		<div class="container-fluid">
 			<div class="row">
-				{{ range $index, $element := .Site.Data.about.aboutItem }}
-				<div class="col-lg-4 px-0">
+				<div class="col-lg-3 px-0">
+					{{ range $index, $element := .Site.Data.about.aboutItem }}
 					{{ $class := add $index 1 }}
-					<div class="block about-feature-{{ $class }} wow fadeInDown" data-wow-duration="500ms" data-wow-delay=".3s">
-						{{ with .title }}<h2>{{ . }}</h2>{{ end }}
+					<div class="block about-feature-{{ $class }} wow fadeInDown" data-wow-duration="500ms"
+						data-wow-delay=".3s">
+						{{ with .title }}<h6>{{ . }}</h6>{{ end }}
 						{{ with .description }}<p>{{ . }}</p>{{ end }}
-						{{ with .title2 }}<h2>{{ . }}</h2>{{ end }}
-						{{ with .descriptionSECOND1 }}<p>{{ . }}</p>{{ end }}
-						{{ with .descriptionSECOND2 }}<p>{{ . }}</p>{{ end }}
-						{{ with .descriptionSECOND3 }}<p>{{ . }}</p>{{ end }}
-						{{ with .descriptionSECOND4 }}<p>{{ . }}</p>{{ end }}
-						{{ with .descriptionSECOND5 }}<p>{{ . }}</p>{{ end }}
-						{{ with .descriptionSECOND6 }}<p>{{ . }}</p>{{ end }}
-						{{ with .descriptionSECOND7 }}<p>{{ . }}</p>{{ end }}
-						{{ with .descriptionSECOND8 }}<p>{{ . }}</p>{{ end }}
-						{{ with .descriptionSECOND9 }}<p>{{ . }}</p>{{ end }}
-						{{ with .descriptionSECOND10 }}<p>{{ . }}</p>{{ end }}
-						{{ with .descriptionSECOND11 }}<p>{{ . }}</p>{{ end }}
-						{{ with .descriptionSECOND12 }}<p>{{ . }}</p>{{ end }}
-						{{ with .descriptionSECOND13 }}<p>{{ . }}</p>{{ end }}
-						{{ with .descriptionSECOND14 }}<p>{{ . }}</p>{{ end }}
-						{{ with .descriptionSECOND15 }}<p>{{ . }}</p>{{ end }}
-						{{ with .title3 }}<h2>{{ . }}</h2>{{ end }}
-						{{ with .descriptionTHIRD1 }}<p>{{ . }}</p>{{ end }}
-						{{ with .descriptionTHIRD2 }}<p>{{ . }}</p>{{ end }}
-						{{ with .descriptionTHIRD3 }}<p>{{ . }}</p>{{ end }}
-						{{ with .descriptionTHIRD4 }}<p>{{ . }}</p>{{ end }}
-						{{ with .descriptionTHIRD5 }}<p>{{ . }}</p>{{ end }}
-						{{ with .descriptionTHIRD6 }}<p>{{ . }}</p>{{ end }}
-						{{ with .descriptionTHIRD7 }}<p>{{ . }}</p>{{ end }}
-						{{ with .descriptionTHIRD8 }}<p>{{ . }}</p>{{ end }}
-						{{ with .descriptionTHIRD9 }}<p>{{ . }}</p>{{ end }}
 					</div>
+					{{ end }}
 				</div>
-				{{ end }}
+				<div class="col-lg-6 px-0">
+					{{ range $index, $element := .Site.Data.about.bulletList }}
+					{{ $class := add $index 1 }}
+					<div class="block about-feature-{{ $class }} wow fadeInDown" data-wow-duration="500ms"
+						data-wow-delay=".3s">
+						{{ with .title }}<h6>{{ . }}</h6>{{ end }}
+						<ul>
+							<li>• Provide engaging text, image and video content for FB & IG channels for 5 brands.</li>
+							<li>• Plan out and schedule content calendar with senior graphic designer.</li>
+							<li>• Assist with e-mail marketing, copywriting and content creation.</li>
+							<li>• Monitor, track and report social media analytics, trends.</li>
+							<li>• Implement, track and optimize the Company digital marketing campaigns across all digital
+								channels.</li>
+							<li>• Work with the design team to create engaging content for all platforms, including blog
+								pieces, articles, social media posts, newsletters, and videos.</li>
+							<li>• Update website to make sure it’s up to date with ongoing sales and new products.</li>
+							<li>• Identify, analyze and report on website analytics and relevant community metrics.</li>
+							<li>• Assist with marketing, sales and customer service for our website</li>
+							<li>• Respond to customers in a timely manner.</li>
+							<li>• Build relationships with customers, industry professionals and influencers.</li>
+							<li>• Liaise with other departments to stay updated on new marketing initiatives, product and
+								service developments, and to ensure brand consistency.</li>
+							<li>• Attend networking events or relevant industry workshops.</li>
+							<li>• Liaise with influencers, bloggers and the general public to ensure accurate brand
+								representation.</li>
+							<li>• Assist with campaign ideation.</li>
+						</ul>
+
+
+					</div>
+					{{ end }}
+				</div>
+				<div class="col-lg-3 px-0">
+					{{ range $index, $element := .Site.Data.about.LastScript }}
+					{{ $class := add $index 1 }}
+					<div class="block about-feature-{{ $class }} wow fadeInDown" data-wow-duration="500ms"
+						data-wow-delay=".3s">
+						{{ with .title }}<h6>{{ . }}</h6>{{ end }}
+						{{ with .description }}<p>{{ . }}</p>{{ end }}
+					</div>
+					{{ end }}
+				</div>
 			</div>
 		</div>
 	</div>
