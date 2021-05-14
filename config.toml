@@ -42,7 +42,9 @@ author = "Themefisher"
 # Google Analitycs
 googleAnalitycsID = "Your ID"
 # contact form action
-contactFormAction = "#" # contact form works with https://formspree.io
+contactFormAction = "https://formspree.io/f/myylewbj" # contact form works with https://formspree.io
+# newsletter form action
+newsletterFormAction = "https://formspree.io/f/mgerakpp" # contact form works with https://formspree.io
 
 # Banner Section
 [params.banner]
@@ -53,7 +55,7 @@ description = "MESH uses AI to send effective, personalized messages to your dre
 # button
 btn     = true
 btnText = "Newsletter"
-btnURL  = "https://themefisher.com/"
+btnURL  = "/newsletter"
 
 # flip text
 [[params.banner.flipText]]
@@ -73,7 +75,7 @@ image   = "images/work_table.jpg"
 # Call to Action
 [params.cta]
 enable  = true
-title   = "SO WHAT YOU THINK ?"
+title   = "QUESTIONS?"
 # content = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis,<br>possimus commodi, fugiat magnam temporibus vero magni recusandae? Dolore, maxime praesentium."
 btnText = "Contact Us"
 btnURL  = "/contact"

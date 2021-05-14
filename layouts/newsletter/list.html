@@ -1,0 +1,38 @@
+{{ define "main" }}
+
+{{ partial "page-title.html" . }}
+
+{{ if .Site.Data.newsletter.enable }}
+{{ "<!-- Contact Section Start -->" | safeHTML }}
+<section id="contact-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 mb-5 mb-md-0">
+                <div class="block">
+                    {{ with .Site.Data.newsletter.newsletterTitle }}<h2 class="subtitle wow fadeInDown"
+                        data-wow-duration="500ms" data-wow-delay=".3s">{{ . }}</h2>{{ end }}
+                    {{ with .Site.Data.newsletter.newsletterSubtitle }}<p class="subtitle-des wow fadeInDown"
+                        data-wow-duration="500ms" data-wow-delay=".5s">{{ . }}</p>{{ end }}
+                    <div class="contact-form">
+                        <form method="POST" action="{{ .Site.Params.newsletterFormAction }}">
+                            <div class="form-group wow fadeInDown" data-wow-duration="500ms" data-wow-delay=".8s">
+                                <input type="email" placeholder="Your Email" class="form-control" name="email" id="email">
+                            </div>
+
+                            <div id="submit" class="wow fadeInDown" data-wow-duration="500ms" data-wow-delay="1.4s">
+                                <button type="submit" id="contact-submit"
+                                    class="btn btn-default btn-send hvr-bounce-to-right" value="Send">Sign Up</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{{ "<!-- Contact Section End -->" | safeHTML }}
+{{ end }}
+
+{{ partial "cta.html" . }}
+
+{{ end }}
