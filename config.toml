@@ -19,7 +19,7 @@ weight  = 2
 #url     = "blog"
 #weight  = 3
 [[menu.main]]
-name    = "About"
+name    = "Join Us"
 url     = "about"
 weight  = 4
 [[menu.main]]
